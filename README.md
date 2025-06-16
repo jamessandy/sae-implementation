@@ -1,6 +1,6 @@
 # Sparse Autoencoder for LLM Feature Interpretability
 
-This repository contains an independent implementation of Sparse Autoencoders (SAEs) designed to extract interpretable features from the internal activations of large language models (LLMs). This project is inspired by the paper "[A. Name et al., 'Sparse Autoencoders Find Highly Interpretable Features in Language Models,' Year.]" (Remember to replace this with the actual citation of the paper you are implementing).
+This repository contains an independent implementation of Sparse Autoencoders (SAEs) designed to extract interpretable features from the internal activations of large language models (LLMs). This project is inspired by the paper "Hoagy Cunningham et al. Sparse Autoencoders Find Highly Interpretable Features in the Language Models, 2023" (Remember to replace this with the actual citation of the paper you are implementing).
 
 The goal of this implementation is to combat **polysemanticity** (when individual neurons activate in different unrelated contexts) in LLMs by using SAEs to decompose complex activations into simpler, more **monosemantic** features.
 
@@ -37,10 +37,9 @@ Ensure you have Python 3.8+ installed.
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/jamessandy/sae-implementation
+    cd sae-implementation
     ```
-    (Replace `yourusername` and `your-repo-name` with your actual GitHub details if you move this to a full repository.)
 
 2.  Install the required libraries:
     ```bash
